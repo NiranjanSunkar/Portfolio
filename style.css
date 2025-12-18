@@ -583,3 +583,15 @@ body {
 }
 
 
+.section {
+  min-height: 100vh;
+}
+
+@media (max-width: 768px) {
+  .section {
+    min-height: auto;
+  }
+}
+
+
+
